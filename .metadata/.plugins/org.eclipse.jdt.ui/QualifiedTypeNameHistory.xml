@@ -34,5 +34,6 @@
     <fullyQualifiedTypeName name="com.study.springboot.bean.Config"/>
     <fullyQualifiedTypeName name="com.study.springboot.bean.Printer"/>
     <fullyQualifiedTypeName name="com.study.springboot.bean.Member"/>
+    <fullyQualifiedTypeName name="jakarta.validation.constraints.NotEmpty"/>
     <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
 </qualifiedTypeNameHistroy>

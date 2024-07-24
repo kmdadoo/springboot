@@ -24,9 +24,18 @@ drop sequence simple_bbs_seq;
 -- 오라클의 시퀀스 기능을 사용하고 있다
 create sequence simple_bbs_seq;
 
+delete from simple_bbs where id = 1;
+commit;
 
-
-
+-- 19.MyBatis_Complex SQL 문
+select A.ename as ename1, B.deptno as dno1, B.dname as dname1
+			from emp A, dept B
+		where A.deptno = B.deptno
+			and B.deptno = 10;
+select A.ename, B.deptno, B.dname
+			from emp A, dept B
+		where A.deptno = B.deptno
+			and B.deptno = 10;
 
 
 
