@@ -37,12 +37,33 @@ select A.ename, B.deptno, B.dname
 		where A.deptno = B.deptno
 			and B.deptno = 10;
 
+-- 22장
+create table Transaction1 (
+    consumerId varchar2(10),
+    amount number
+);
+
+create table transaction2 (
+    consumerId varchar2(10),
+    amount number
+);
+
+SELECT * FROM transaction1;
+SELECT * FROM transaction2;
+SELECT * FROM transaction3;
 
 
+DELETE FROM transaction1;
+DELETE FROM transaction2;
+DELETE FROM transaction3;
+commit;
 
+create table transaction3 (
+    consumerId varchar2(10),
+    amount number
+);
 
-
-
+SELECT *  FROM transaction3;
 
 
 

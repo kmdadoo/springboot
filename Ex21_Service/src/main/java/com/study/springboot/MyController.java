@@ -18,7 +18,7 @@ public class MyController
 //	@Autowired
 //	ISimpleBbsDao dao;	
 	@Autowired
-	ISimpleBbsService bbs;
+	ISimpleBbsService bbs; // 서비스를 사용.
 	
 
     @RequestMapping("/")
@@ -30,7 +30,7 @@ public class MyController
 	@RequestMapping("/list")  
     public String userlistPage(Model model) {
 //		model.addAttribute("list", dao.listDao());
-		model.addAttribute("list", bbs.list());
+		model.addAttribute("list", bbs.list());	// bbs(서비스)로 변경됨
 
 //		int nTotalCount = dao.articleCount();
 		int nTotalCount = bbs.count();
