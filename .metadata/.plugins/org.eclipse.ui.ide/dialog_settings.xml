@@ -88,9 +88,9 @@
 	</section>
 	<section name="CleanDialogSettings">
 		<item key="TOGGLE_SELECTED" value="false"/>
-		<item key="DIALOG_WIDTH" value="581"/>
-		<item key="DIALOG_HEIGHT" value="434"/>
-		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+		<item key="DIALOG_WIDTH" value="500"/>
+		<item key="DIALOG_HEIGHT" value="389"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>
 	<section name="SmartImportWizard">
 		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
@@ -115,6 +115,12 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\DevData\SpringBoot\Ex30_Security_Database"/>
+			<item value="D:\DevData\SpringBoot\Ex29_Security_taglibs"/>
+			<item value="D:\DevData\SpringBoot\Ex28_Security_StatusCheck"/>
+			<item value="D:\DevData\SpringBoot\Ex27_Security_LoginForm"/>
+			<item value="D:\DevData\SpringBoot\Ex25_Transaction_Propagation"/>
+			<item value="D:\DevData\SpringBoot\Ex24_TransactionTemplate"/>
 			<item value="D:\DevData\SpringBoot\Ex23_TransactionManager"/>
 			<item value="D:\DevData\SpringBoot\Ex21_Service"/>
 			<item value="D:\DevData\SpringBoot\Ex20_SqlLog"/>
@@ -125,11 +131,11 @@
 			<item value=""/>
 		</list>
 		<section name="ExternalProjectImportWizard.dialogBounds">
-			<item key="DIALOG_X_ORIGIN" value="503"/>
-			<item key="DIALOG_Y_ORIGIN" value="9"/>
-			<item key="DIALOG_WIDTH" value="613"/>
-			<item key="DIALOG_HEIGHT" value="850"/>
-			<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+			<item key="DIALOG_X_ORIGIN" value="546"/>
+			<item key="DIALOG_Y_ORIGIN" value="101"/>
+			<item key="DIALOG_WIDTH" value="525"/>
+			<item key="DIALOG_HEIGHT" value="710"/>
+			<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 		</section>
 	</section>
 </section>

@@ -36,4 +36,9 @@
     <fullyQualifiedTypeName name="com.study.springboot.bean.Member"/>
     <fullyQualifiedTypeName name="jakarta.validation.constraints.NotEmpty"/>
     <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
+    <fullyQualifiedTypeName name="org.springframework.security.core.userdetails.User"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.DispatcherType"/>
+    <fullyQualifiedTypeName name="org.springframework.security.core.AuthenticationException"/>
+    <fullyQualifiedTypeName name="javax.sql.DataSource"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.http.Part"/>
 </qualifiedTypeNameHistroy>

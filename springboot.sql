@@ -65,6 +65,20 @@ create table transaction3 (
 
 SELECT *  FROM transaction3;
 
+-- 30장
+create table user_list (
+    name varchar2(20) primary key,
+    password varchar2(100),
+    authority varchar(20),
+    enabled number(1)
+);
+
+insert into user_list values ('user', '$2a$10$R9zYpt407.uAeB1VBXvyWuivflSMDwbeSwyS4F3gqxsEZnY2L87kC', 'ROLE_USER', 1);
+insert into user_list values ('admin', '$2a$10$R9zYpt407.uAeB1VBXvyWuivflSMDwbeSwyS4F3gqxsEZnY2L87kC', 'ROLE_ADMIN', 1);
+commit;
+select * from user_list;
+
+
 
 
 
